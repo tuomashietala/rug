@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c2b6c;
+    font-size: 18px;
+    position: relative;
+    background: rgb(61, 53, 84);
+    align-items: center;
+}
+
+h1 {
+    text-align: end;
+    color: #2a116c;
+    font-size: 42px;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 42px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.ylaosa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.box {
+    display: block;
+    flex-direction: row;
+    background-color: #fff6dd;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2e2249;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 25px 30px;
+    filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.35));
+    max-width: 500px;
+}
+
+
+.infot {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    padding: 15px;
+}
+
+.kuva {
+    display: flex;
+    border-radius: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(24, 3, 46, 0.629));
+}
+
+/* Name style */
+.generatedx {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: rgb(23, 23, 23);
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.generated {
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.CTA {
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #200f51;
+    color: rgb(248, 248, 248);
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    opacity: 0.7;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.CTA:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
